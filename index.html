@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" style="background: url('https://images.pexels.com/photos/1078057/pexels-photo-1078057.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') no-repeat; background-size: cover; min-height: 100vh;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="materialize.min.js"></script>
+    <link rel="stylesheet" href="materialize.min.css">
+    <title>Document</title>
+</head>
+<body >
+   <div class="row " style="background-color: #B6B4A9;">
+    <div class="container " id="choix" style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+        <div class="btn"  id="btn1"  >Sallah</div>
+        <div class="btn" id="btn2">Cantine</div>
+        <div class="btn" id="btn3">Qur'An</div>
+        <div class="btn" id="btn4">sport</div>
+        <div class="btn" id="btn5">self-learning</div>
+        <div class="btn" id="btn6">jeux</div>
+   </div>
+   </div>
+   <div class="container center" id="nbr_temps" style="color: teal; font-weight: bold;">
+       <h3 style="font-weight: bold;">Combien de minutes</h3>
+           <form >
+            <input style="max-width: 200px;" id="entree" placeholder="entrez les minutes" type="number">
+            <div class="btn" id="button" >envoyer</div>
+           </form><br>
+           <div style="font-size: 2rem; font-weight: bold;  margin-top: 200px;" id="timer">
+
+           </div>
+           <h4 style="margin-top: 100px;">You will be back at:</h4>
+           <div style="font-size: 2rem; font-weight: bold; margin-top: 20px;" class="timer">
+            
+            </div>
+   </div>
+
+    
+</body>
+<script src="affichage.js"></script>
+</html>
